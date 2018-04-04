@@ -1,0 +1,25 @@
+#buscador input{width:100%;display:block;padding:15px;border:1px solid #666;font-size:15px;line-height:normal;border-radius:3px;transition:all .3s ease;box-sizing:border-box;}
+#buscador input:focus{box-shadow:0 0 5px 2px rgba(0,0,0,.2);}
+
+.main-header{position:fixed;left:0;top:0;width:100%;background:#fff;padding:15px 0;z-index:99;border-bottom:1px solid #ddd}
+.main-header nav ul{text-align:right;}
+.main-header nav ul li{display:inline-block;vertical-align:middle;margin-right:30px;font-size:16px;position:relative;}
+.main-header nav ul li:last-of-type{margin-right: 0}
+.main-header nav ul li a{text-decoration:none;color:#4A4A4A;}
+.main-header nav ul li .user-img{position:relative;overflow:hidden;border-radius:100%;width:60px;height:60px;}
+.main-header nav ul li .user-img figure{position:absolute;left:-50%;bottom:-50%;right:-50%;top:-50%;margin:auto;max-width:100%;height:100%;}
+.main-header nav ul li .submenu{position: absolute;right: 0;min-width: 300px;padding: 15px;border: 1px solid #ddd;margin-top: 15px;background: #fff;display:none;}
+
+.project-info{background:#eee;}
+.project-info h1{font-size:22px;line-height:normal;color:#333;}
+.project-info p.desc{margin-bottom:15px;font-size:16px;}
+.project-info .tags li{display:inline-block;margin-right:10px;}
+.project-info .tags li:last-of-type{margin-right:0}
+.project-info .white-cont{height:100%;background:#fff;box-shadow:0 0 5px 2px rgba(0,0,0,.1);border-radius:5px}
+
+.project-content{background: rgb(72,85,99);background: -moz-linear-gradient(top, rgba(72,85,99,1) 0%, rgba(41,50,60,1) 100%);background: -webkit-linear-gradient(top, rgba(72,85,99,1) 0%,rgba(41,50,60,1) 100%);background: linear-gradient(to bottom, rgba(72,85,99,1) 0%,rgba(41,50,60,1) 100%);filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#485563', endColorstr='#29323c',GradientType=0 );}
+.project-content .white-cont{padding:30px;background:#fff;border-radius:5px;box-shadow:0 0 5px 2px rgba(0,0,0,.1);margin-bottom:30px;}
+.project-content .white-cont:last-of-type{margin-bottom:0;}
+.btn-conts .btn{display:block;}
+.btn-conts{margin:-5px;}
+.btn-conts > div{padding:5px;}
